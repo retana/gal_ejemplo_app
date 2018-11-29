@@ -1,0 +1,21 @@
+<ion-header >
+  <ion-navbar color="primary">
+    <ion-title>
+      Listado de libros
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content no-padding>
+  <ion-list>
+    <ion-item *ngFor="let libro of listaLibros">
+      {{libro.nombre}}
+      <small>por {{libro.autor}}</small>
+    </ion-item>
+  </ion-list>
+  <ion-fab right bottom>
+    <button ion-fab color="secondary" (click)="addPage()">
+      <ion-icon name="add"></ion-icon>
+    </button>
+    </ion-fab>
+</ion-content>
