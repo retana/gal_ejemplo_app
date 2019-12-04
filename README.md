@@ -13,5 +13,6 @@
 
 <ul>
 <li>Creacion del proyecto <code>ionic start</code> del cual deberas de seguir los pasos segun a como quieres trabajar tu proyecto.</li>
-<li>Para la ejecucion de tu apliacion en tu navegador deberas de utilizar el comando <code>ionic serve</code></li>
+<li>Para la ejecucion de tu apliacion en tu navegador deberas de utilizar el comando <code>ionic serve</code> accede a la url http://localhost:8100/ para visualizar tu aplicacion.</li>
+
 </ul>
