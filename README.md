@@ -25,7 +25,7 @@
 <h3>Creacion de Servicio para consumo de servicio REST creado</h3>
 <p>Para el consumo del servicio REST creado es necesario el utilizar el siguiente endpoint <a>http://localhost:3000</a> en este caso la ruta a utilizar sera http://localhost:3000/api/v1/libro </p>
 
-'''java
+```java
   
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
@@ -51,4 +51,4 @@ export class ConsumidorProvider {
   }
 
 }
-'''
+```
